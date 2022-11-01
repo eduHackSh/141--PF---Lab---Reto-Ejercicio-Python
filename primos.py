@@ -5,7 +5,7 @@ suma = 0
 #formula: (n-1)!+1 es multiplo de n
 txt = ""
 
-for x in range(1, r+1):
+for x in range(2, r+1):
     for num in range(1, (x-1)):
         if suma == 0:
             suma += ((x-1)*(x-1-num))
