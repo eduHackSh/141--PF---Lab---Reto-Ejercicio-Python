@@ -20,3 +20,4 @@ for x in range(1, r+1):
 
 file = open('resultado.txt', 'w')
 file.write(txt)
+file.close()
