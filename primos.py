@@ -1,7 +1,7 @@
 import os
 
 r = 250
-suma = float()
+suma = 0
 #formula: (n-1)!+1 es multiplo de n
 txt = ""
 
